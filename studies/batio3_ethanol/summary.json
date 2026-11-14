@@ -1,0 +1,213 @@
+{
+  "model": "Nonlinear constant-potential planar PB + Derjaguin for identical spheres; nonretarded Derjaguin vdW",
+  "temperature_k": 298.15,
+  "relative_permittivity": 24.3,
+  "hamaker_status": "4, 8, 12 e-20 J are sensitivity assumptions; not measured for ethanol",
+  "diameters_nm": [
+    50,
+    100,
+    200,
+    500
+  ],
+  "potentials_mv": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    90,
+    95,
+    100
+  ],
+  "ionic_strength_range_m": [
+    1e-06,
+    0.01
+  ],
+  "ionic_strength_points": 81,
+  "gap_grid": {
+    "dimensionless_min": 0.0001,
+    "dimensionless_max": 30,
+    "points": 700,
+    "analysis_min_h_nm": 0.3,
+    "analysis_max_kappa_h": 20
+  },
+  "geometry_criteria": "Debye length/a <= 0.1 AND peak gap/a <= 0.1 AND interior positive maximum",
+  "criterion": "20 kBT is a screening target only; not a validated stability time",
+  "thresholds": [
+    {
+      "diameter_nm": 50,
+      "hamaker_j": 4e-20,
+      "lowest_sampled_potential_candidate": null
+    },
+    {
+      "diameter_nm": 50,
+      "hamaker_j": 8e-20,
+      "lowest_sampled_potential_candidate": null
+    },
+    {
+      "diameter_nm": 50,
+      "hamaker_j": 1.2e-19,
+      "lowest_sampled_potential_candidate": null
+    },
+    {
+      "diameter_nm": 100,
+      "hamaker_j": 4e-20,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 100,
+        "hamaker_j": 4e-20,
+        "surface_potential_mv": 80,
+        "free_ionic_strength_m": 0.0012589254117941675,
+        "debye_length_nm": 4.770190324297979,
+        "positive_peak_kbt": 22.146708981994827,
+        "peak_h_nm": 2.1766346061201984,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    },
+    {
+      "diameter_nm": 100,
+      "hamaker_j": 8e-20,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 100,
+        "hamaker_j": 8e-20,
+        "surface_potential_mv": 100,
+        "free_ionic_strength_m": 0.0012589254117941675,
+        "debye_length_nm": 4.770190324297979,
+        "positive_peak_kbt": 20.20144539696202,
+        "peak_h_nm": 2.654469316856588,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    },
+    {
+      "diameter_nm": 100,
+      "hamaker_j": 1.2e-19,
+      "lowest_sampled_potential_candidate": null
+    },
+    {
+      "diameter_nm": 200,
+      "hamaker_j": 4e-20,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 200,
+        "hamaker_j": 4e-20,
+        "surface_potential_mv": 55,
+        "free_ionic_strength_m": 0.00031622776601683794,
+        "debye_length_nm": 9.517780989300938,
+        "positive_peak_kbt": 24.77894032888975,
+        "peak_h_nm": 4.502532280628098,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    },
+    {
+      "diameter_nm": 200,
+      "hamaker_j": 8e-20,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 200,
+        "hamaker_j": 8e-20,
+        "surface_potential_mv": 65,
+        "free_ionic_strength_m": 0.00031622776601683794,
+        "debye_length_nm": 9.517780989300938,
+        "positive_peak_kbt": 22.365668858166206,
+        "peak_h_nm": 5.692726518383445,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    },
+    {
+      "diameter_nm": 200,
+      "hamaker_j": 1.2e-19,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 200,
+        "hamaker_j": 1.2e-19,
+        "surface_potential_mv": 75,
+        "free_ionic_strength_m": 0.00031622776601683794,
+        "debye_length_nm": 9.517780989300938,
+        "positive_peak_kbt": 21.603388116955063,
+        "peak_h_nm": 6.230151163948674,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    },
+    {
+      "diameter_nm": 500,
+      "hamaker_j": 4e-20,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 500,
+        "hamaker_j": 4e-20,
+        "surface_potential_mv": 35,
+        "free_ionic_strength_m": 5.011872336272725e-05,
+        "debye_length_nm": 23.907584925104846,
+        "positive_peak_kbt": 28.49189477365406,
+        "peak_h_nm": 11.107624312987062,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    },
+    {
+      "diameter_nm": 500,
+      "hamaker_j": 8e-20,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 500,
+        "hamaker_j": 8e-20,
+        "surface_potential_mv": 40,
+        "free_ionic_strength_m": 5.011872336272725e-05,
+        "debye_length_nm": 23.907584925104846,
+        "positive_peak_kbt": 25.334758758924032,
+        "peak_h_nm": 14.55981890642544,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    },
+    {
+      "diameter_nm": 500,
+      "hamaker_j": 1.2e-19,
+      "lowest_sampled_potential_candidate": {
+        "diameter_nm": 500,
+        "hamaker_j": 1.2e-19,
+        "surface_potential_mv": 45,
+        "free_ionic_strength_m": 5.011872336272725e-05,
+        "debye_length_nm": 23.907584925104846,
+        "positive_peak_kbt": 24.680627731113226,
+        "peak_h_nm": 16.224446498518454,
+        "interior_peak": true,
+        "thin_double_layer": true,
+        "small_peak_gap": true,
+        "geometry_eligible": true,
+        "candidate_20kbt": true
+      }
+    }
+  ]
+}

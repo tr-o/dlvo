@@ -9,6 +9,9 @@ description = "DLVO interaction energies for identical colloidal spheres"
 requires-python = ">=3.10"
 dependencies = ["matplotlib>=3.6"]
 
+[project.optional-dependencies]
+research = ["numpy>=1.24", "scipy>=1.10"]
+
 [project.scripts]
 dlvo = "dlvo.__main__:main"
 
