@@ -1,0 +1,25 @@
+{
+  "parameters_si": {
+    "radius_m": 1.0000000000000001e-07,
+    "potential_v": 0.02,
+    "ionic_strength_mol_l": 0.001,
+    "hamaker_j": 1e-20,
+    "temperature_k": 298.15,
+    "relative_permittivity": 78.5
+  },
+  "debye_length_nm": 9.619830031199033,
+  "sampled_maximum": {
+    "h_nm": 3.333203387645685,
+    "energy_kbt": 16.62299103039496,
+    "at_grid_boundary": false
+  },
+  "grid": {
+    "h_min_nm": 0.3,
+    "h_max_nm": 10,
+    "points": 1000
+  },
+  "notes": [
+    "Linear PB is approximate: |e psi/kBT| > 0.5."
+  ],
+  "maximum_definition": "Sampled maximum in requested range, relative to infinite separation; not a fitted barrier or activation energy."
+}
