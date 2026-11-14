@@ -57,7 +57,7 @@ def main():
         rows.append((h_nm, *energies, *(u / params.thermal_energy_j for u in energies)))
     args.output.mkdir(parents=True, exist_ok=True)
     with (args.output / "dlvo.csv").open("w", newline="", encoding="utf-8") as f:
-        writer = csv.writer(f)
+        writer = csv.writer(f, lineterminator="\n")
         writer.writerow(["h_nm", "vdw_j", "double_layer_j", "total_j",
                          "vdw_kbt", "double_layer_kbt", "total_kbt"])
         writer.writerows(rows)
