@@ -1,0 +1,807 @@
+{
+  "radius_m": 5e-09,
+  "temperature_k": 298.15,
+  "relative_permittivity": 24.3,
+  "boundary": "Equal fixed surface potentials; mirror plane and axis symmetry; zero far-field potential",
+  "model": "Axisymmetric nonlinear 1:1 PB solved around curved sphere boundaries; midpoint osmotic + Maxwell stress; exact nonretarded Hamaker spheres",
+  "resolution": 20,
+  "outer_padding_debye_lengths": 12,
+  "gap_points": 65,
+  "potentials_mv": [
+    20,
+    34,
+    50,
+    75,
+    100
+  ],
+  "ionic_strengths_m": [
+    1e-06,
+    0.0001,
+    0.001,
+    0.01
+  ],
+  "hamakers_j": [
+    4e-20,
+    8e-20,
+    1.2e-19
+  ],
+  "hamaker_status": "Sensitivity assumptions, not measured ethanol values",
+  "maxima": [
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.2647280070508885,
+      "peak_h_nm": 6.221405747523889,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0012696604939823877,
+      "last_force_n": 5.119973137826559e-22
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.24311158236394417,
+      "peak_h_nm": 8.195862083249583,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0012579985566875328,
+      "last_force_n": 5.119973137826559e-22
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.23048031338065494,
+      "peak_h_nm": 8.195862083249583,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0012579985566875328,
+      "last_force_n": 5.119973137826559e-22
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.8511426729914754,
+      "peak_h_nm": 4.722613567940445,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.003680324511727411,
+      "last_force_n": 1.4790230322266778e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.7960563735367191,
+      "peak_h_nm": 5.4204515674359515,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0036765295030084045,
+      "last_force_n": 1.4790230322266778e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.7616133193862499,
+      "peak_h_nm": 6.221405747523889,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.003669072349290247,
+      "last_force_n": 1.4790230322266778e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.966119651859821,
+      "peak_h_nm": 3.584893803297087,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.007962580331484599,
+      "last_force_n": 3.196045392176563e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.8552952933037783,
+      "peak_h_nm": 4.114616399505117,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.007961703130589456,
+      "last_force_n": 3.196045392176563e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 1.785528180314597,
+      "peak_h_nm": 4.722613567940445,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.007958230009784599,
+      "last_force_n": 3.196045392176563e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 4.683917406120627,
+      "peak_h_nm": 2.370921208506796,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.01790664191452159,
+      "last_force_n": 7.177398547016958e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 4.463663247129112,
+      "peak_h_nm": 3.1233685799880413,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.017909651311342072,
+      "last_force_n": 7.177398547016958e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 4.321267234158804,
+      "peak_h_nm": 3.584893803297087,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.017910318410113455,
+      "last_force_n": 7.177398547016958e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 8.613724389517149,
+      "peak_h_nm": 2.0656848471959446,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.03181549699391286,
+      "last_force_n": 1.2723640595548125e-20
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 8.2575538070843,
+      "peak_h_nm": 2.7212608857434826,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.031820195508668984,
+      "last_force_n": 1.2723640595548125e-20
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 1e-06,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 8.028431671414241,
+      "peak_h_nm": 3.1233685799880413,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.03182287914230172,
+      "last_force_n": 1.2723640595548125e-20
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.2042972610731152,
+      "peak_h_nm": 5.194058931586649,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0007116827798703177,
+      "last_force_n": 4.9658325519353913e-20
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.17167340628846178,
+      "peak_h_nm": 7.050031316956148,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0007031243066624437,
+      "last_force_n": 4.9658325519353913e-20
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.1530885308545333,
+      "peak_h_nm": 7.80583027391202,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0006971597851005177,
+      "last_force_n": 4.9658325519353913e-20
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.7225765581341856,
+      "peak_h_nm": 3.826684871584798,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.002057098168151507,
+      "last_force_n": 1.4241851470392468e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.6351462734491894,
+      "peak_h_nm": 4.691144547708673,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.002055207524952696,
+      "last_force_n": 1.4241851470392468e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.5804962020575107,
+      "peak_h_nm": 5.194058931586649,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0020522167673831244,
+      "last_force_n": 1.4241851470392468e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.7418001722748129,
+      "peak_h_nm": 2.8192820488354937,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.004431826539375551,
+      "last_force_n": 3.0376373477640375e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.5661640568544495,
+      "peak_h_nm": 3.456166383089245,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.004433319041082291,
+      "last_force_n": 3.0376373477640375e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 1.4579237507376972,
+      "peak_h_nm": 4.236924813014067,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.004431374781716977,
+      "last_force_n": 3.0376373477640375e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 4.242321394797891,
+      "peak_h_nm": 2.0770853983579527,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.00988143482580179,
+      "last_force_n": 6.610414117922765e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 3.891158359750975,
+      "peak_h_nm": 2.54630526646863,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.009884367240599047,
+      "last_force_n": 6.610414117922765e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 3.6691550380771796,
+      "peak_h_nm": 3.1215233206933126,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.009886044064001667,
+      "last_force_n": 6.610414117922765e-19
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 7.776125544573047,
+      "peak_h_nm": 1.5302774526776532,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.017317658658786907,
+      "last_force_n": 1.1185452105791346e-18
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 7.2067098612833105,
+      "peak_h_nm": 2.0770853983579527,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.017320802213178083,
+      "last_force_n": 1.1185452105791346e-18
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.0001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 6.832625539161579,
+      "peak_h_nm": 2.54630526646863,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.017320477216327193,
+      "last_force_n": 1.1185452105791346e-18
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.09609301818978085,
+      "peak_h_nm": 5.001964981880858,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0005609147213776771,
+      "last_force_n": 3.863205517078373e-22
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.05577452970682364,
+      "peak_h_nm": 6.567507662312179,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0005213670283455153,
+      "last_force_n": 3.863205517078373e-22
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.035833065737157783,
+      "peak_h_nm": 7.874818428328568,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.00047621703372085377,
+      "last_force_n": 3.863205517078373e-22
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.4677232979352509,
+      "peak_h_nm": 3.177172135164098,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0016664838289619985,
+      "last_force_n": 1.0957001420246376e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.3370841890748772,
+      "peak_h_nm": 4.171581052198589,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0016409392843453434,
+      "last_force_n": 1.0957001420246376e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.2628660038254257,
+      "peak_h_nm": 5.001964981880858,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0016006745593169203,
+      "last_force_n": 1.0957001420246376e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.276620785127504,
+      "peak_h_nm": 2.2098399643680375,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.003580168901673764,
+      "last_force_n": 2.291676678050931e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.0010051299829132,
+      "peak_h_nm": 2.9014879054618,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.003565892687545574,
+      "last_force_n": 2.291676678050931e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.837445575363664,
+      "peak_h_nm": 3.479050440796722,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.003538273098130501,
+      "last_force_n": 2.291676678050931e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 3.3157328064807725,
+      "peak_h_nm": 1.5370248952110572,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.007868587573930247,
+      "last_force_n": 4.7705274760472565e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 2.746850486155283,
+      "peak_h_nm": 2.2098399643680375,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.007837811664876591,
+      "last_force_n": 4.7705274760472565e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 2.394602243194571,
+      "peak_h_nm": 2.649724883447742,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.00779338891456085,
+      "last_force_n": 4.7705274760472565e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 6.119231238071199,
+      "peak_h_nm": 1.1706335336680957,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.01351016875096361,
+      "last_force_n": 7.613432888093348e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 5.184356859234154,
+      "peak_h_nm": 1.6830649746723203,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.013447015888318236,
+      "last_force_n": 7.613432888093348e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.001,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 4.59759864624761,
+      "peak_h_nm": 2.018091452664967,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.013371281988494502,
+      "last_force_n": 7.613432888093348e-21
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0,
+      "peak_h_nm": 100.0,
+      "at_boundary": true,
+      "force_integration_difference_kbt": 0.0,
+      "last_force_n": 2.0491299324764485e-38
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0,
+      "peak_h_nm": 100.0,
+      "at_boundary": true,
+      "force_integration_difference_kbt": 0.0,
+      "last_force_n": 2.0491299324764485e-38
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 20,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0,
+      "peak_h_nm": 100.0,
+      "at_boundary": true,
+      "force_integration_difference_kbt": 0.0,
+      "last_force_n": 2.0491299324764485e-38
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.022168548623310327,
+      "peak_h_nm": 3.177172135164098,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0013410619510551298,
+      "last_force_n": 5.739505197394407e-38
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0,
+      "peak_h_nm": 100.0,
+      "at_boundary": true,
+      "force_integration_difference_kbt": 0.0,
+      "last_force_n": 5.739505197394407e-38
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 34,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0,
+      "peak_h_nm": 100.0,
+      "at_boundary": true,
+      "force_integration_difference_kbt": 0.0,
+      "last_force_n": 5.739505197394407e-38
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 0.3601872526142121,
+      "peak_h_nm": 1.8429810198876138,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0034321432383198416,
+      "last_force_n": 1.1753729746853324e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.051059667731668035,
+      "peak_h_nm": 3.177172135164098,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.002738595083167797,
+      "last_force_n": 1.1753729746853324e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 50,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0,
+      "peak_h_nm": 100.0,
+      "at_boundary": true,
+      "force_integration_difference_kbt": 0.0,
+      "last_force_n": 1.1753729746853324e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.5096082077303237,
+      "peak_h_nm": 1.1706335336680957,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.007659018386349587,
+      "last_force_n": 2.342617938025646e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.7088653902538603,
+      "peak_h_nm": 1.8429810198876138,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.007092807227398686,
+      "last_force_n": 2.342617938025646e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 75,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.3095300990212914,
+      "peak_h_nm": 2.649724883447742,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.0061291039269803765,
+      "last_force_n": 2.342617938025646e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 3.19810782069974,
+      "peak_h_nm": 0.8915814404945422,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.012922628913034178,
+      "last_force_n": 3.5595873676051004e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.8284907330737699,
+      "peak_h_nm": 1.4036567595725298,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.012076403849209105,
+      "last_force_n": 3.5595873676051004e-37
+    },
+    {
+      "diameter_nm": 10,
+      "surface_potential_mv": 100,
+      "free_ionic_strength_m": 0.01,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 1.0935079111144992,
+      "peak_h_nm": 1.8429810198876138,
+      "at_boundary": false,
+      "force_integration_difference_kbt": 0.01116944934829549,
+      "last_force_n": 3.5595873676051004e-37
+    }
+  ],
+  "validation": [
+    {
+      "ionic_strength_m": 1e-06,
+      "potential_mv": 100,
+      "gap_nm": 1,
+      "cases": [
+        {
+          "resolution": 12,
+          "padding": 12,
+          "force_n": 2.0725405521293122e-12,
+          "scaled_residual": 1.0973840946804399e-10,
+          "unknowns": 7809
+        },
+        {
+          "resolution": 20,
+          "padding": 12,
+          "force_n": 2.072373741228289e-12,
+          "scaled_residual": 6.32784405971124e-11,
+          "unknowns": 11551
+        },
+        {
+          "resolution": 32,
+          "padding": 12,
+          "force_n": 2.0720239722644537e-12,
+          "scaled_residual": 5.593167616510028e-11,
+          "unknowns": 17909
+        },
+        {
+          "resolution": 20,
+          "padding": 16,
+          "force_n": 2.0723737412195878e-12,
+          "scaled_residual": 6.327849607465013e-11,
+          "unknowns": 12226
+        }
+      ]
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "potential_mv": 34,
+      "gap_nm": 1,
+      "cases": [
+        {
+          "resolution": 12,
+          "padding": 12,
+          "force_n": 8.158630865808112e-13,
+          "scaled_residual": 4.117494083768766e-14,
+          "unknowns": 2625
+        },
+        {
+          "resolution": 20,
+          "padding": 12,
+          "force_n": 8.16340270538239e-13,
+          "scaled_residual": 1.5342199758117077e-14,
+          "unknowns": 5006
+        },
+        {
+          "resolution": 32,
+          "padding": 12,
+          "force_n": 8.16491355607601e-13,
+          "scaled_residual": 5.929765141287137e-15,
+          "unknowns": 9053
+        },
+        {
+          "resolution": 20,
+          "padding": 16,
+          "force_n": 8.163402705261077e-13,
+          "scaled_residual": 1.5291157339665388e-14,
+          "unknowns": 5314
+        }
+      ]
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "potential_mv": 100,
+      "gap_nm": 1,
+      "cases": [
+        {
+          "resolution": 12,
+          "padding": 12,
+          "force_n": 1.3450715908378836e-11,
+          "scaled_residual": 1.3357431246201289e-15,
+          "unknowns": 4387
+        },
+        {
+          "resolution": 20,
+          "padding": 12,
+          "force_n": 1.3450715908378836e-11,
+          "scaled_residual": 1.3357431246201289e-15,
+          "unknowns": 4387
+        },
+        {
+          "resolution": 32,
+          "padding": 12,
+          "force_n": 1.3420530836348602e-11,
+          "scaled_residual": 1.2198483662822772e-15,
+          "unknowns": 6864
+        },
+        {
+          "resolution": 20,
+          "padding": 16,
+          "force_n": 1.3450715908433663e-11,
+          "scaled_residual": 1.3902306556068226e-15,
+          "unknowns": 4840
+        }
+      ]
+    }
+  ],
+  "omitted": [
+    "charge regulation",
+    "ion pairing",
+    "charge discreteness",
+    "steric and solvation forces",
+    "retardation",
+    "ferroelectric interactions"
+  ],
+  "criterion": "20 kBT is a screening heuristic, not a validated storage time"
+}

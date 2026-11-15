@@ -3,6 +3,9 @@
 BaTiO₃／エタノールの条件探索は[計算レポート](studies/batio3_ethanol/REPORT.md)を参照してください。
 非線形PBモデルを使い、粒径・表面電位・自由イオン強度・Hamaker定数を振った結果を保存しています。
 
+**直径10 nm**については、平板近似を使わず、球の曲率を含む非線形PBを解いた
+[追加レポート](studies/batio3_10nm/REPORT.md)と[計算スクリプト](studies/batio3_10nm.py)があります。
+
 同一半径・同一表面電位の球状コロイド粒子2個について、DLVO相互作用エネルギーを計算します。
 ファンデルワールス引力、電気二重層反発、およびその和をCSV・PNGに出力します。
 
@@ -89,6 +92,7 @@ python -m unittest discover -s tests -v
 python -m pip install -e '.[research]'
 python -m unittest discover -s tests -v
 python -m studies.batio3_ethanol
+python -m studies.batio3_10nm
 ```
 
 Debye長の参照値、濃度依存性、引力の解析値、電位ゼロ、接触極限、塩による遮蔽、
