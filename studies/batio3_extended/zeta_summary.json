@@ -1,0 +1,409 @@
+{
+  "mappings": [
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0,
+      "inferred_surface_potential_mv": 34.0,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0.3,
+      "inferred_surface_potential_mv": 36.10442163642278,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0.5,
+      "inferred_surface_potential_mv": 37.5115347657622,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 2,
+      "inferred_surface_potential_mv": 48.172316700348006,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0,
+      "inferred_surface_potential_mv": 34.0,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0.3,
+      "inferred_surface_potential_mv": 38.244270404411466,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0.5,
+      "inferred_surface_potential_mv": 41.31064967447378,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 2,
+      "inferred_surface_potential_mv": 72.59765779765092,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0,
+      "inferred_surface_potential_mv": 34.0,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0.3,
+      "inferred_surface_potential_mv": 43.68332743293415,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 0.5,
+      "inferred_surface_potential_mv": 51.81619707211291,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "status": "computed"
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 2,
+      "inferred_surface_potential_mv": null,
+      "status": "no solution in surface potential bracket up to 10 kBT/e"
+    }
+  ],
+  "peaks": [
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.2843973864329616,
+      "peak_h_nm": 3.873435835045411
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.2054601997240186,
+      "peak_h_nm": 4.89404128253543
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 1.1565977487730514,
+      "peak_h_nm": 5.585698272485577
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.50427686903903,
+      "peak_h_nm": 3.4585011821811786
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.4002515742465773,
+      "peak_h_nm": 4.427280998551901
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 1.336421471782792,
+      "peak_h_nm": 5.089807043403826
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.7921442866960924,
+      "peak_h_nm": 3.065667881011639
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.6541253210890374,
+      "peak_h_nm": 3.970281334529464
+    },
+    {
+      "ionic_strength_m": 1e-06,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 41.04397832210762,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 1.5698867762043238,
+      "peak_h_nm": 4.597692270105415
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.2722386993098604,
+      "peak_h_nm": 2.2400390233318888
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.9984513680598452,
+      "peak_h_nm": 3.0039508331065417
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.8347517167893399,
+      "peak_h_nm": 3.565630647651802
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.4066803092319924,
+      "peak_h_nm": 2.080083823051902
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.0907132485530107,
+      "peak_h_nm": 2.8302633428154067
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.9046994804353121,
+      "peak_h_nm": 3.388875739561439
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.5100488810582888,
+      "peak_h_nm": 1.9769702195142238
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.1616633407984733,
+      "peak_h_nm": 2.7174544872467497
+    },
+    {
+      "ionic_strength_m": 0.001,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 49.92895750015273,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.9585232478572105,
+      "peak_h_nm": 3.2727632292244735
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 1.949937527800046,
+      "peak_h_nm": 1.1121738375240828
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 0.9925301364981949,
+      "peak_h_nm": 1.7146447005110617
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 0,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.5012665049622838,
+      "peak_h_nm": 2.2860612798177984
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 2.086317894758713,
+      "peak_h_nm": 1.058577948473678
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.0573046865685893,
+      "peak_h_nm": 1.6583032855561675
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 0.5,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.536202280617678,
+      "peak_h_nm": 2.2270608044575297
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 4e-20,
+      "positive_maximum_kbt": 2.1852201363526405,
+      "peak_h_nm": 1.0282655709704924
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 8e-20,
+      "positive_maximum_kbt": 1.1081389074650982,
+      "peak_h_nm": 1.6225601297837757
+    },
+    {
+      "ionic_strength_m": 0.01,
+      "assumed_zeta_mv": 34,
+      "assumed_shear_offset_nm": 1,
+      "inferred_surface_potential_mv": 82.13485760348081,
+      "regulation": 1,
+      "particle_permittivity": 150,
+      "hamaker_j": 1.2e-19,
+      "positive_maximum_kbt": 0.5656136245179335,
+      "peak_h_nm": 2.185398638986416
+    }
+  ],
+  "assumptions": "Isolated spherical PB; zeta equals radial potential at an assumed shear plane. No electrokinetic mobility inversion."
+}

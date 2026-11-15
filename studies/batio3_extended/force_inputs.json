@@ -1,0 +1,19 @@
+{
+  "solver_hash": "fbac4be43c549fe62d6ba5acb4b909e60425408e358e3fd19878164a9dd3b40b",
+  "strengths": [
+    1e-06,
+    0.001,
+    0.01
+  ],
+  "potentials": [
+    34,
+    50
+  ],
+  "resolution": 20,
+  "gap_points": 8,
+  "gap_count": 65,
+  "padding": 12,
+  "radius_m": 5e-09,
+  "temperature_k": 298.15,
+  "solvent_permittivity": 24.3
+}

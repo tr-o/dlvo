@@ -1,0 +1,23 @@
+{
+  "solver_hash": "f36d243e8b3b3ecd028c9f5a7a827396666dea9b836d4815cee5022a62d3f1e4",
+  "zeta_v": 0.034,
+  "shear_offset_m": 1e-09,
+  "radius_m": 5e-09,
+  "temperature_k": 298.15,
+  "solvent_permittivity": 24.3,
+  "particle_permittivity": 150,
+  "strengths": [
+    1e-06,
+    0.001,
+    0.01
+  ],
+  "regulations": [
+    0,
+    0.5,
+    1
+  ],
+  "resolution": 20,
+  "gap_points": 8,
+  "gap_count": 65,
+  "padding": 12
+}

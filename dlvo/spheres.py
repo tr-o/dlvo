@@ -55,7 +55,7 @@ class SphereGeometry:
     padding is the number of Debye lengths to the outer boundaries.
     """
 
-    def __init__(self, radius_m, debye_length_m, separation_m, resolution=20, padding=12):
+    def __init__(self, radius_m, debye_length_m, separation_m, resolution=20, padding=12, gap_points=0):
         if any(not math.isfinite(v) or v <= 0 for v in (radius_m, debye_length_m, separation_m, padding)):
             raise ValueError("geometry lengths and padding must be finite and positive")
         if resolution < 8:
@@ -65,6 +65,7 @@ class SphereGeometry:
         self.gap = separation_m / radius_m
         center = 1 + self.gap / 2
         step = min(1 / resolution, 1 / (self.k * 8))
+        self.center, self.step = center, step
         local_r = np.linspace(0, 1.5, int(np.ceil(1.5 / step)) + 1)
         r = np.r_[local_r, _graded_interval(1.5, 1.5 + padding / self.k, step)[1:]]
         low, high = max(0, center - 1.5), center + 1.5
@@ -72,6 +73,10 @@ class SphereGeometry:
         below = _graded_interval(0, low, step, both=True)[:-1] if low > 0 else np.array([])
         above = _graded_interval(high, high + padding / self.k, step)[1:]
         z = np.r_[below, local_z, above]
+        if gap_points and np.count_nonzero(z < self.gap/2) < gap_points:
+            # Surface-normal charge conditions need several fluid nodes even
+            # when the axial half-gap is smaller than the ordinary core step.
+            z = np.r_[np.linspace(0, self.gap/2, gap_points+1), z[z > self.gap/2+1e-12]]
         rr, zz = np.meshgrid(r, z, indexing="ij")
         solid = rr**2 + (zz - center)**2 <= 1 + 1e-13
         fluid = ~solid
@@ -84,6 +89,7 @@ class SphereGeometry:
         diagonal = np.zeros(n)
         boundary = np.zeros(n)
         rows, cols, values = [], [], []
+        surface_links = []
 
         for row, (i, j) in enumerate(zip(ii, jj)):
             for axis in (0, 1):
@@ -116,10 +122,14 @@ class SphereGeometry:
                     if axis == 0:
                         coefficients[0] -= dp / (r[i] * dm * (dm + dp))
                         coefficients[1] += dm / (r[i] * dp * (dm + dp))
-                for coefficient, (ni, nj, surface) in zip(coefficients, neighbours):
+                for coefficient, (ni, nj, surface), distance, direction in zip(
+                        coefficients, neighbours, distances, directions):
                     diagonal[row] += coefficient
                     if surface:
                         boundary[row] += coefficient
+                        sr = r[i] + distance*direction if axis == 0 else r[i]
+                        sz = z[j] + distance*direction if axis == 1 else z[j]
+                        surface_links.append((row, coefficient, math.atan2(sr, sz-center)))
                     elif ids[ni, nj] >= 0:
                         rows.append(row)
                         cols.append(ids[ni, nj])
@@ -131,6 +141,7 @@ class SphereGeometry:
         self.boundary = boundary
         self.diagonal = diagonal
         self.r, self.z, self.ids, self.solid, self.fluid = r, z, ids, solid, fluid
+        self.surface_links = surface_links
 
     def solve(self, params: Parameters, linear=False, tolerance=1e-9):
         if not math.isclose(params.radius_m, self.radius_m, rel_tol=1e-10) or not math.isclose(

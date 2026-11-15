@@ -6,6 +6,9 @@ BaTiO₃／エタノールの条件探索は[計算レポート](studies/batio3_
 **直径10 nm**については、平板近似を使わず、球の曲率を含む非線形PBを解いた
 [追加レポート](studies/batio3_10nm/REPORT.md)と[計算スクリプト](studies/batio3_10nm.py)があります。
 
+電荷調節、粒子内部の誘電応答、ゼータ電位の補正、溶媒和と吸着層の反発を追加した
+[拡張評価](studies/batio3_extended/REPORT.md)では、安定化に必要な層厚・反発強度を仮定の下で逆算しています。
+
 同一半径・同一表面電位の球状コロイド粒子2個について、DLVO相互作用エネルギーを計算します。
 ファンデルワールス引力、電気二重層反発、およびその和をCSV・PNGに出力します。
 
@@ -93,6 +96,8 @@ python -m pip install -e '.[research]'
 python -m unittest discover -s tests -v
 python -m studies.batio3_ethanol
 python -m studies.batio3_10nm
+python -m studies.batio3_extended
+python -m studies.batio3_zeta
 ```
 
 Debye長の参照値、濃度依存性、引力の解析値、電位ゼロ、接触極限、塩による遮蔽、

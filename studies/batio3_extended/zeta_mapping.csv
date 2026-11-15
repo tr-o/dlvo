@@ -1,0 +1,16 @@
+ionic_strength_m,assumed_zeta_mv,assumed_shear_offset_nm,inferred_surface_potential_mv,status
+1e-06,34,0,34.0,computed
+1e-06,34,0.3,36.10442163642278,computed
+1e-06,34,0.5,37.5115347657622,computed
+1e-06,34,1,41.04397832210762,computed
+1e-06,34,2,48.172316700348006,computed
+0.001,34,0,34.0,computed
+0.001,34,0.3,38.244270404411466,computed
+0.001,34,0.5,41.31064967447378,computed
+0.001,34,1,49.92895750015273,computed
+0.001,34,2,72.59765779765092,computed
+0.01,34,0,34.0,computed
+0.01,34,0.3,43.68332743293415,computed
+0.01,34,0.5,51.81619707211291,computed
+0.01,34,1,82.13485760348081,computed
+0.01,34,2,,no solution in surface potential bracket up to 10 kBT/e
